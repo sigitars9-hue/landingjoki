@@ -1,0 +1,60 @@
+# ───────────────────────────────────────
+# Node & Build
+# ───────────────────────────────────────
+node_modules/
+dist/
+build/
+.tmp/
+.cache/
+.vite/
+
+# ───────────────────────────────────────
+# Editor & System Files
+# ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+*.lock
+*.bak
+*.tmp
+
+# ───────────────────────────────────────
+# Environment & Secrets
+# ───────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# ───────────────────────────────────────
+# OS metadata & temporary files
+# ───────────────────────────────────────
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+
+# ───────────────────────────────────────
+# Optional - Vercel / Netlify
+# ───────────────────────────────────────
+.vercel/
+.netlify/
+
+# ───────────────────────────────────────
+# Logs
+# ───────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ───────────────────────────────────────
+# Package managers cache
+# ───────────────────────────────────────
+.npm/
+.pnpm-store/
+.yarn/
